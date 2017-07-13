@@ -2,16 +2,17 @@
 
 This file describes your project to the community. What's your cool website about? What makes it special?
 
-README.md is written in markdown, which you can treat like plain text or [fancily format](https://daringfireball.net/projects/markdown/basics)
+ヽ(๏∀๏ )ﾉ
 
 ## ← index.html
 
 Where you'll write the content of your website. 
 
+## ← styles.css
 
+CSS files add styling rules to your content
 
+## ← script.js
 
-## Extra Help
+If you're feeling fancy you can add interactivity to your site with Javascript
 
-- [Intro to HTML and CSS video lessons](https://www.khanacademy.org/computing/computer-programming/html-css)
-- [Glitch Support Forum](https://support.glitch.com)
