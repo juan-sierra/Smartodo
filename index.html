@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles.css">
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <h1>Hi there!</h1>
-    <p>
-      I'm your cool new webpage. Made with 
-      <a href="https://www.glitch.com">Glitch</a>
-    </p>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Smartodo</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <h1 id="app-name">Smartodo</h1>
+
+            <div class="card">
+
+                <h2>What do you need to do today?</h2>
+
+                <textarea placeholder="Example: Get groceries at 2PM" class="text-box" id="text-area"></textarea>
+                <i class="fa fa-plus-circle send-btn" aria-hidden="true" id="add" onclick="submitClick()"></i>
+
+            </div>
+
+            <div class="tasks" id="task-card">
+
+                <ul class="task-container" id="task-ul">
+
+                </ul>
+
+            </div>
+
+            <footer class="footer">
+                <div class="cool-text credit">
+                    Made with <i class="fa fa-coffee" aria-hidden="true"></i> and <i class="fa fa-code" aria-hidden="true"></i> by Juan Sierra
+                </div>
+            </footer>
+
+        </div>
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+        <!-- replace this script with the one provided by firebase for your won use -->
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAt6p7oXeJmqpbsnkhzucGv3JAb-YdMI0k",
+            authDomain: "todo-app-8cf39.firebaseapp.com",
+            databaseURL: "https://todo-app-8cf39.firebaseio.com",
+            projectId: "todo-app-8cf39",
+            storageBucket: "",
+            messagingSenderId: "134614276320"
+          };
+          firebase.initializeApp(config);
+        </script>
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <script src="https://use.fontawesome.com/21fc749235.js"></script>
+
+    </body>
 </html>

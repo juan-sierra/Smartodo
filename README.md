@@ -1,18 +1,15 @@
-# My cool website
+# Smartodo
 
-This file describes your project to the community. What's your cool website about? What makes it special?
+A todo app that uses Firebase to store tasks.
 
-ヽ(๏∀๏ )ﾉ
+## Usage
 
-## ← index.html
+1. Clone repo `git clone https://github.com/juan-sierra/Smartodo.git`
 
-Where you'll write the content of your website. 
+2. If you created a project through the firebase website they should have provided you with a script to put in your app. Replace the script noted inside the index.html with the script that was provided to you by firebase.
 
-## ← styles.css
+3. *This step is completely optional* - Run a local webserver if on Mac OS, you can run `python -m SimpleHTTPServer 8000` - if you have browser-sync installed you can run `browser-sync start --server --files './**'`  if you don't want to run a webserver you can just open index.html.
 
-CSS files add styling rules to your content
+4. That's it!
 
-## ← script.js
-
-If you're feeling fancy you can add interactivity to your site with Javascript
-
+   ​
