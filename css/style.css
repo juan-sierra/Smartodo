@@ -53,7 +53,7 @@ html, body {
 }
 
 .tasks {
-    background-color: #30323D;
+    background-color: whitesmoke;
     border: 2px solid #000;
     border-radius: 1em;
     position: relative;
